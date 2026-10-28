@@ -3,6 +3,7 @@ h1 {
   font-family: verdana;
   font-size: 36px
 }
-img src
-  width="400"
-  height="500"
+img src {
+width: "400";
+height: "500"
+}

@@ -4,4 +4,8 @@ h1 {
   font-size: 36px;
   background-color: white
 }
-
+p {
+color: black;
+font-family: verdana;
+font-style: italic
+}

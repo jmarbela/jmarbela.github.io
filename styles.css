@@ -4,19 +4,19 @@ h1 {
   font-size: 36px;
   background-color: white
 }
-h2 {
+h3 {
   color: orangered;
   font-family: verdana;
   font-size: 30px;
   background-color: white
 }
-p1 {
+h2 {
   color: white;
   background-color: navy;
-  font-family: verdana;
+  font-family: verdana
   font-size: 24px
 }
-p2 {
+p {
   color: black;
   font-family: verdana;
    font-size: 15 px

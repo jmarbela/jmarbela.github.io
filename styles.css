@@ -4,6 +4,12 @@ h1 {
   font-size: 36px;
   background-color: white
 }
+h2{
+  color: orangered;
+  font-family: verdana;
+  font-size: 32px;
+  background-color: white
+}
 p {
   color: white;
   background-color: navy;

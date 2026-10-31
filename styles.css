@@ -2,30 +2,30 @@ h1 {
   color: orangered;
   font-family: verdana;
   font-size: 36px;
-  background-color: white
+  background-color: white;
 }
 h3 {
   color: orangered;
   font-family: verdana;
   font-size: 30px;
-  background-color: white
+  background-color: white;
 }
 h2 {
   color: white;
   background-color: navy;
-  font-family: verdana
-  font-size: 24px
+  font-family: verdana;
+  font-size: 24px;
 }
 p {
   color: black;
   font-family: verdana;
-   font-size: 15 px
+   font-size: 15 px;
 }
 ul {
   color: black;
   font-family: verdana;
-  font-style: italic
-  font-size: 15 px
+  font-style: italic;
+  font-size: 15 px;
 }
 img {
 }

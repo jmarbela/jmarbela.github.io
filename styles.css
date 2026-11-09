@@ -1,8 +1,15 @@
+masthead {
+  background: navy;
+  border-bottom: 10px solid pink;
+  padding: 28px 5vw 24px;
+}
 h1 {
-  color: orangered;
-  font-family: verdana;
-  font-size: 36px;
-  background-color: white;
+  margin: 0;
+  color: white;
+  font-family: Impact, sans-serif;
+  font-size: 80px;
+  line-height: 0.95;
+  text-transform: uppercase;
 }
 h2 {
   display: inline-block;

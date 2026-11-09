@@ -1,13 +1,9 @@
-masthead {
-  background: navy;
-  border-bottom: 10px solid pink;
-  padding: 28px 5vw 24px;
-}
+
 h1 {
   margin: 0;
-  color: white;
+  color: navy;
   font-family: Impact, sans-serif;
-  font-size: 80px;
+  font-size: 60px;
   line-height: 0.95;
   text-transform: uppercase;
 }

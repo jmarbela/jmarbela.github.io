@@ -5,10 +5,11 @@ h1 {
   background-color: white;
 }
 h2 {
-  color: orangered;
-  font-family: verdana;
-  font-size: 30px;
-  background-color: white;
+  display: inline-block;
+  padding: 10px 36px 10px 20px;
+  background: var(--pink);
+  color: #fff;
+  clip-path: polygon(0 0, 100% 0, calc(100% - 22px) 100%, 0 100%);
 }
 h3 {
   color: white;

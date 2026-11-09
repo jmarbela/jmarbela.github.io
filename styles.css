@@ -19,7 +19,6 @@ h2 {
   font-family: Impact, sans-serif;
   font-size: 36px;
   text-transform: uppercase;
-  letter-spacing: 0.03em;
   clip-path: polygon(0 0, 100% 0, calc(100% - 22px) 100%, 0 100%);
 }
 h3 {

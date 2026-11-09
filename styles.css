@@ -5,8 +5,9 @@
 }
 
 nav {
-  margin-top: 20px;
+  margin-top: 24px;
   color: white;
+  font-size: 28px;
 }
 nav a {
   color: white;
@@ -14,8 +15,6 @@ nav a {
   font-family: Impact, sans-serif;
   text-transform: uppercase;
   letter-spacing: 0.05em;
-  font-size: 28px;
-}
 }
 nav a:hover {
   color: hotpink;

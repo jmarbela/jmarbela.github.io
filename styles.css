@@ -21,6 +21,11 @@ h2 {
   text-transform: uppercase;
   letter-spacing: 0.03em;
   clip-path: polygon(0 0, 100% 0, calc(100% - 22px) 100%, 0 100%);
+  
+  .section-rule {
+  height: 6px;
+  background: var(--navy);
+  margin-bottom: 32px;
 }
 h3 {
   color: white;

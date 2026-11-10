@@ -8,6 +8,9 @@ main {
   margin: 0 auto;
   padding: 40px 5vw;
 }
+main p {
+  padding-left: 20px;
+}
 nav {
   margin-top: 24px;
   color: white;

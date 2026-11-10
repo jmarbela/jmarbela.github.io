@@ -114,3 +114,7 @@ img {
   height: auto;
   margin-bottom: 24px;
 }
+img2 {
+  float: left;
+  padding: 16px;
+}

@@ -3,7 +3,11 @@
   border-bottom: 10px solid hotpink;
   padding: 28px 5vw 24px;
 }
-
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px 5vw;
+}
 nav {
   margin-top: 24px;
   color: white;

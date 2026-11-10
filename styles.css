@@ -34,7 +34,7 @@ h2 {
   background-color: hotpink;
   color: white;
   font-family: Impact, sans-serif;
-  font-size: 50px;
+  font-size: 36px;
   text-transform: uppercase;
   clip-path: polygon(0 0, 100% 0, calc(100% - 22px) 100%, 0 100%);
 }

@@ -3,6 +3,9 @@
   border-bottom: 10px solid hotpink;
   padding: 28px 5vw 24px;
 }
+main{
+  padding: 16px
+}
 nav {
   margin-top: 24px;
   color: white;

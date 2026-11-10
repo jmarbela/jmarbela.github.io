@@ -8,6 +8,9 @@ main {
   margin: 0 auto;
   padding: 40px 5vw;
 }
+main p {
+  padding-left: 20px;
+}
 nav {
   margin-top: 24px;
   color: white;
@@ -56,7 +59,7 @@ h3 {
 p {
   color: black;
   font-family: verdana;
-  font-size: 15 px;
+   font-size: 15 px;
 }
 ul {
   color: black;

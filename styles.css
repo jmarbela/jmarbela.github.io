@@ -9,6 +9,11 @@
 
 body {
   margin: 0;
+  overflow-x: hidden;
+}
+
+.articlebox {
+  width: 100%;
 }
 
 main {
@@ -28,8 +33,10 @@ header.border-5 {
   --bs-navbar-nav-link-padding-x: 1.25rem;
 }
 
-.style-nav .navbar-brand {
-  font-family: Impact, sans-serif;
+.style-nav .navbar-brand,
+.site-name {
+  font-family: "Anton", Impact, sans-serif;
+  letter-spacing: 0.03em;
 }
 
 .style-nav .navbar-nav {
@@ -42,6 +49,7 @@ header.border-5 {
 }
 
 .style-nav .navbar-nav .nav-link {
+  padding-left: 1rem;
   padding-right: 2rem;
   font-family: "Barlow Condensed", Impact, sans-serif;
   letter-spacing: 0.05em;
@@ -58,8 +66,9 @@ h2 {
   padding: 10px 36px 10px 20px;
   background-color: hotpink;
   color: white;
-  font-family: Impact, sans-serif;
+  font-family: "Anton", Impact, sans-serif;
   font-size: 36px;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
   clip-path: polygon(0 0, 100% 0, calc(100% - 22px) 100%, 0 100%);
 }
@@ -67,16 +76,17 @@ h2 {
 .section-rule {
   height: 6px;
   background-color: navy;
-  margin-bottom: 16px;
+  margin-bottom: 24px;
 }
 
 h3 {
-  margin: 16px 0 20px;
+  margin: 0 0 20px;
   color: navy;
   background-color: transparent;
-  font-family: Impact, sans-serif;
+  font-family: "Anton", Impact, sans-serif;
   font-size: 30px;
   line-height: 1.1;
+  letter-spacing: 0.02em;
   text-transform: uppercase;
   border-left: 10px solid hotpink;
   padding-left: 16px;
@@ -87,31 +97,32 @@ p {
   margin: 0 0 16px;
   padding-left: var(--text-indent);
   color: black;
-  font-family: verdana, sans-serif;
+  font-family: Verdana, sans-serif;
   font-size: 16px;
   line-height: 1.6;
 }
 
-ul {
+/* Scope custom list styling to main so it doesn't interfere with Bootstrap navbar lists */
+main ul {
   margin: 0 0 16px;
   padding: 0;
   list-style: none;
   color: black;
-  font-family: verdana, sans-serif;
+  font-family: Verdana, sans-serif;
   font-style: italic;
   font-size: 16px;
 }
 
-li {
+main li {
   padding-left: var(--text-indent);
   margin-bottom: 8px;
 }
 
-a {
+main a {
   color: navy;
 }
 
-a:hover {
+main a:hover {
   color: hotpink;
 }
 
